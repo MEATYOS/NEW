@@ -6,13 +6,14 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #121212;
+            background: url('/mnt/data/image.png') no-repeat center center fixed;
+            background-size: cover;
             color: #f8f8f8;
             display: flex;
         }
         .sidebar {
             width: 200px;
-            background: #1e1e1e;
+            background: rgba(30, 30, 30, 0.8);
             padding: 20px;
             position: fixed;
             left: 0;
@@ -33,12 +34,15 @@
         .content {
             margin-left: 220px;
             width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
         }
         h1 {
             color: #e67e22;
         }
         .section {
-            background: #1e1e1e;
+            background: rgba(30, 30, 30, 0.8);
             padding: 20px;
             margin: 20px auto;
             width: 50%;
