@@ -8,6 +8,31 @@
             text-align: center;
             background-color: #121212;
             color: #f8f8f8;
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background: #1e1e1e;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            box-shadow: 2px 0px 10px rgba(255, 165, 0, 0.5);
+        }
+        .sidebar a {
+            display: block;
+            color: #e67e22;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .sidebar a:hover {
+            color: #f39c12;
+        }
+        .content {
+            margin-left: 220px;
+            width: 100%;
         }
         h1 {
             color: #e67e22;
@@ -40,27 +65,34 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to Cooking with Love</h1>
-    <p>Discover simple and delicious recipes!</p>
-    
-    <div class="section">
-        <h2>Recipes</h2>
-        <div class="recipe">
-            <h3>Easy Pancakes</h3>
-            <p>Ingredients: Flour, Eggs, Milk, Sugar, Baking Powder</p>
-            <button onclick="alert('Enjoy your pancakes!')">Try This Recipe</button>
-        </div>
-        <div class="recipe">
-            <h3>Chocolate Chip Cookies</h3>
-            <p>Ingredients: Flour, Butter, Sugar, Chocolate Chips, Eggs, Baking Soda</p>
-            <button onclick="alert('Enjoy your cookies!')">Try This Recipe</button>
-        </div>
+    <div class="sidebar">
+        <h2>Links</h2>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.twitch.tv" target="_blank">Twitch</a>
     </div>
-    
-    <div class="section meme">
-        <h2>Funny Cooking Memes</h2>
-        <img src="https://i.imgur.com/J8XBytF.jpeg" alt="Funny Cooking Meme 1">
-        <img src="https://i.imgur.com/2z8AYDk.jpeg" alt="Funny Cooking Meme 2">
+    <div class="content">
+        <h1>Welcome to Cooking with Love</h1>
+        <p>Discover simple and delicious recipes!</p>
+        
+        <div class="section">
+            <h2>Recipes</h2>
+            <div class="recipe">
+                <h3>Easy Pancakes</h3>
+                <p>Ingredients: Flour, Eggs, Milk, Sugar, Baking Powder</p>
+                <button onclick="alert('Enjoy your pancakes!')">Try This Recipe</button>
+            </div>
+            <div class="recipe">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Ingredients: Flour, Butter, Sugar, Chocolate Chips, Eggs, Baking Soda</p>
+                <button onclick="alert('Enjoy your cookies!')">Try This Recipe</button>
+            </div>
+        </div>
+        
+        <div class="section meme">
+            <h2>Funny Cooking Memes</h2>
+            <img src="https://i.imgur.com/J8XBytF.jpeg" alt="Funny Cooking Meme 1">
+            <img src="https://i.imgur.com/2z8AYDk.jpeg" alt="Funny Cooking Meme 2">
+        </div>
     </div>
 </body>
 </html>
