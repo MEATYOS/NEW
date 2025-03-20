@@ -6,7 +6,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background: url('/mnt/data/image.png') no-repeat center center fixed;
+            background: url('https://i.imgur.com/2xtqKYn.png') no-repeat center center fixed;
             background-size: cover;
             color: #f8f8f8;
             display: flex;
