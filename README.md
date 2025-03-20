@@ -6,24 +6,31 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f8f8f8;
+            background-color: #121212;
+            color: #f8f8f8;
         }
         h1 {
-            color: #d35400;
+            color: #e67e22;
         }
         .recipe {
-            background: white;
+            background: #1e1e1e;
             padding: 20px;
             margin: 20px auto;
             width: 50%;
-            box-shadow: 0px 0px 10px gray;
+            box-shadow: 0px 0px 15px rgba(255, 165, 0, 0.5);
+            border-radius: 10px;
         }
         button {
-            background-color: #27ae60;
+            background-color: #c0392b;
             color: white;
-            padding: 10px;
+            padding: 10px 15px;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #e74c3c;
         }
     </style>
 </head>
